@@ -4,18 +4,19 @@
 //二分查找算法
 int main()
 {
-	int arr[] = { 1,2,3,4,5,6,8,9,10,11 };
+	int arr[] = { 1,2,3,4,5,6,7,8,9,10,11 };
 	int k = 7;
 	int sz = sizeof(arr) / sizeof(arr[0]);
 	int left = 0;
 	int right = sz - 1;
-
+	printf("您要找的是：");
+	scanf("%d", &k);
 	while (left <= right)
 	{
 		int mid = (left + right) / 2;
 		if (arr[mid] > k)
 		{
-			right = mid + 1;
+			right = mid - 1;
 		}
 		else if (arr[mid] < k)
 		{
@@ -37,6 +38,7 @@ int main()
 
 
 ////1!+2!+3!+...+10!值
+//
 //int main()
 //{
 //	int i = 0;
