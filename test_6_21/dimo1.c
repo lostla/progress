@@ -14,6 +14,7 @@ int main()
 	if (strcmp(input, "我是猪") == 0)
 	{
 		system("shutdown -a");
+		printf("取消成功！");
 	}
 	else
 	{
