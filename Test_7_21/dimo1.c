@@ -44,28 +44,30 @@
 //		return Fib(n - 1) + Fib(n - 2);
 //}//程序运行缓慢 效率低
 
-int Fib(int n)
-{
-	int a = 1;
-	int b = 1;
-	int c = 0;
-	while (n > 2)
-	{
-		c = a + b;
-		a = b;
-		b = c;
-		n--;
-	}
-	return c;
-}
+//int Fib(int n)
+//{
+//	int a = 1;
+//	int b = 1;
+//	int c = 0;
+//	while (n > 2)
+//	{
+//		c = a + b;
+//		a = b;
+//		b = c;
+//		n--;
+//	}
+//	return c;
+//}
+//
+//int main()
+//{
+//	int n = 0;
+//	int ret = 0;
+//	scanf("%d", &n);
+//	//TDD--测试驱动开发
+//	ret = Fib(n);
+//	printf("ret=%d", ret);
+//	return  0;
+//}
 
-int main()
-{
-	int n = 0;
-	int ret = 0;
-	scanf("%d", &n);
-	//TDD--测试驱动开发
-	ret = Fib(n);
-	printf("ret=%d", ret);
-	return  0;
-}
+
