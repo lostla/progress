@@ -70,23 +70,23 @@
 //	return 0;
 //}
 
-////整形提升存在，打印结果为c
-//int main()
-//{
-//	char a = 0xB6;
-//	short b = 0xB600;
-//	int c = 0xB6000000;
-//	if (a == 0xB6)
-//		printf("a");
-//	if (b == 0xB600)
-//		printf("b");
-//	if (c == 0xB6000000)
-//		printf("c");
-//	return 0;
-//}
-
+//整形提升存在，打印结果为c
 int main()
 {
-	
+	char a = 0xB6;
+	short b = 0xB600;
+	int c = 0xB6000000;
+	if (a == 0xB6)
+		printf("a");
+	if (b == 0xB600)
+		printf("b");
+	if (c == 0xB6000000)
+		printf("c");
 	return 0;
 }
+
+//int main()
+//{
+//	
+//	return 0;
+//}
